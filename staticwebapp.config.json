@@ -15,17 +15,6 @@
 			"redirect": "/.auth/login/aad"
 		}
 	},
-	"auth": {
-		"identityProviders": {
-			"azureActiveDirectory": {
-				"registration": {
-					"openIdIssuer": "https://login.microsoftonline.com/6567d2c2-56cf-4905-87cc-e9746b671954/v2.0",
-					"clientIdSettingName": "AZURE_CLIENT_ID",
-					"clientSecretSettingName": "AZURE_CLIENT_SECRET"
-				}
-			}
-		}
-	},
 	"globalHeaders": {
 		"Cache-Control": "no-cache"
 	}
